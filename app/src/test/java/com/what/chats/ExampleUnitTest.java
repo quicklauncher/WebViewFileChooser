@@ -1,4 +1,4 @@
-package com.news.adilifeshop;
+package com.what.chats;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.news.adilifeshop">
+    package="com.what.chats">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,25 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.news.adilifeshop.splash">
+        <activity android:name="com.what.chats.splash">
 
+
+        </activity>
+        <activity android:name="com.what.chats.MainActivity"
+            android:theme="@style/AppFullScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.news.adilifeshop.MainActivity"
-            android:theme="@style/AppFullScreenTheme">
 
-        </activity>
+
+
         <service
-            android:name="com.news.adilifeshop.MyMessagingService"
+            android:name="com.what.chats.MyMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
     </application>
 
 </manifest>

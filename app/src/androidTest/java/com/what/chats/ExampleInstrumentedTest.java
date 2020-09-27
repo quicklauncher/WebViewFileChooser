@@ -1,4 +1,4 @@
-package com.news.adilifeshop;
+package com.what.chats;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
